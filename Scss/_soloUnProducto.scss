@@ -1,0 +1,568 @@
+/*Solo un producto*/
+$respon: 100%;
+$veinte: 20px;
+$cien: 100px;
+$punto: 30pt;
+
+$white: white;
+$azul: rgba(122, 162, 223, 0.63);
+$azulOsc: rgba(122, 162, 223, 0.288);
+$marino: rgba(32, 43, 190, 0.521);
+
+
+.fondoImagen {background-color: white;
+             width: $respon;
+             height: ($respon)-50;
+             overflow: visible;
+             margin: 0px 0px 5px 0px;}
+
+.soloUnProducto {width: ($respon)-40;
+                margin: 1% 0% 1% ($respon)-80;}
+
+.espas {padding: 0px ($veinte)-10 0px ($veinte)-15 !important;}
+
+.tabla__titulo {width: 0px !important;}
+
+.tabla__valoracion {width: 0px !important;}
+
+.tabla__descripcion { width: 5px!important;}
+
+/*comentarios*/
+
+.card {position: relative;
+    display: flex;
+    background-color: $white;
+    border-radius: 0.25rem;}
+
+@media only screen and (max-width: 335px) {
+    .tabla__titulo {
+        h2 {background-color: $azul;
+            height: $veinte !important;
+            padding: 0px!important;}
+    }
+
+    .tabla__valoracion {
+        h2 {background-color: $azul;
+            height: $veinte !important;
+            padding: 0px!important;}
+    }
+
+    .tabla__descripcion {
+        h2 {background-color: rgba(122, 162, 223, 0.63);
+            height: $veinte !important;
+            padding: 0px!important;}
+    }
+
+    .tabla__lista {padding: 0px $veinte+10 0px $veinte+10 !important;
+                  text-align: left;
+                  font-weight: bold;
+                  font-size: ($veinte)-10;
+                  margin: 0px 0px ($veinte)-50 0px;}
+    
+    /*comentarios*/
+
+    section {background-color: $azulOsc;
+            padding: 0px ($veinte)-5 $veinte+10 ($veinte)-5;
+            margin: 0px;}
+
+    .iconoComentario {width: $punto;
+                     height: $punto;} 
+                     
+    .card-header {font-size: ($veinte)-5;
+                  margin-bottom: 0;
+                  background-color: $marino !important;}
+
+    .card-body {font-size: ($veinte)-10;
+                min-height: 1px;
+                padding: ($veinte)-10;}
+
+     h2 button .btn {width: $cien*2;
+                    height: $veinte;}
+
+    .btn-link {text-align: left;
+              color: $white;
+              text-decoration: none;}
+      
+    .btn-link:hover {color: $white;
+                    text-decoration: none;}
+
+    .botonCargar {width: $cien+50 !important;
+                 height: $veinte+5 !important;
+                 font-size: ($veinte)-8;
+                 margin: 0px 0px 0px ($veinte)-10 !important;}
+
+    .enviar {width: $veinte*3 !important;
+            height: $veinte+5 !important;
+            font-size: ($veinte)-8;
+            margin: 0px 0px 0px ($veinte)-17 !important;}
+}
+
+@media only screen and (min-width: 374px) and (max-width:378px) {
+    .tabla__titulo {
+        h2 {background-color: $azul;
+            height: $veinte+5 !important;
+            padding: 0px !important;}
+    }
+
+    .tabla__valoracion {
+        h2 {background-color: $azul;
+            height: $veinte+5 !important;
+            padding: 0px !important;}
+    }
+
+    .tabla__descripcion {
+        h2 {background-color: $azul;
+            height: $veinte+5 !important;
+            padding: 0px !important;}
+    }
+
+    .tabla__lista {padding: 0px $veinte+20 $veinte+10 $veinte+20 !important;
+                  text-align: left;
+                  font-weight: bold;
+                  font-size: ($veinte)-8;
+                  margin: 0px 0px $veinte 0px;}
+
+    /*comentarios*/
+    
+    section {background-color: $azulOsc;
+            padding: 0px ($veinte)-5 $veinte+30 ($veinte)-5 !important;
+            margin: 0px 0px ($veinte)-70 0px !important;}
+
+    .iconoComentario {width: $punto;
+                     height: $punto;}
+
+    .card-header {font-size: ($veinte)-5;
+                 margin-bottom: 0;
+                 background-color: $marino !important;}
+
+    .card-body {font-size: ($veinte)-7;
+                min-height: 1px;
+                padding: ($veinte)-10;}
+
+    h2 button.btn {width: $cien*2;
+                  height: $veinte;}
+
+    .btn-link {text-align: left;
+              color: $white;
+              text-decoration: none;}
+      
+    .btn-link:hover {color: $white;
+                    text-decoration: none;}
+
+    .botonCargar {width: $cien+50 !important;
+                 height: $veinte+5 !important;
+                 font-size: ($veinte)-8;
+                 margin: 0px 0px 0px ($veinte)-10 !important;}
+
+    .enviar {width: $veinte*3 !important;
+            height: $veinte+5 !important;
+            font-size: ($veinte)-8;
+            margin: 0px 0px 0px ($veinte)-17 !important;}
+}
+
+@media only screen and (min-width:340px) and (max-width: 575.98px) {
+    .tabla__titulo {
+        h2 {background-color: $azul;
+            height: $veinte !important;
+            padding: 0px !important;
+            font-size: ($veinte)-7 !important;}
+    }
+
+    .tabla__valoracion {
+        h2 {background-color: $azul;
+            height: $veinte !important;
+            padding: 0px !important;
+            font-size: ($veinte)-7 !important;}
+    }
+
+    .tabla__descripcion {
+        h2 {background-color: $azul;
+            height: $veinte !important;
+            padding: 0px !important;
+            font-size: ($veinte)-7 !important;}
+    }
+
+    .tabla__lista {padding: 0px $veinte+10 0px $veinte !important;
+                  text-align: left;
+                  font-weight: bold;
+                  font-size: ($veinte)-8;
+                  margin: 0px 0px ($veinte)-30 0px;}
+
+    /*comentarios*/
+    
+    section {background-color: $azulOsc;
+            padding: 0px ($veinte)-5 $veinte+30 ($veinte)-5;
+            margin: 0px 0px ($veinte)-60 0px !important;}
+
+    .iconoComentario {width: $punto;
+                      height: $punto;}
+
+    .card-header {font-size: ($veinte)-5;
+                 margin-bottom: 0;
+                 background-color: $marino !important;}
+
+    .card-body {font-size: ($veinte)-7;
+                min-height: 1px;
+                padding: ($veinte)-10;}
+
+    h2 button.btn {width: $cien*2;
+                  height: $veinte;}
+
+    .btn-link {text-align: left;
+              color: $white;
+              text-decoration: none;}
+      
+    .btn-link:hover {color: $white;
+                    text-decoration: none;}
+
+    .botonCargar {width: $cien+50 !important;
+                height: $veinte+5 !important;
+                font-size: ($veinte)-8;
+                margin: 0px 0px 0px ($veinte)-10 !important;}
+
+    .enviar {width: $veinte*3 !important;
+            height: $veinte+5 !important;
+            font-size: ($veinte)-8;
+            margin: 0px 0px 0px ($veinte)-17 !important;}
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    .tabla__titulo {
+        h2 {background-color: $azul;
+            height: $veinte+10 !important;
+            padding: 0px !important;
+            font-size: $veinte !important;}
+    }
+
+    .tabla__valoracion {
+        h2 {background-color: $azul;
+            height: $veinte+10 !important;
+            padding: 0px !important;
+            font-size: $veinte !important;}
+    }
+
+    .tabla__descripcion {
+        h2 {background-color: $azul;
+            height: $veinte+10 !important;
+            padding: 0px !important;
+            font-size: $veinte !important;}
+    }
+
+    .tabla__lista {padding: 0px ($cien)-30 0px ($cien)-20 !important;
+                  text-align: left;
+                  font-weight: bold;
+                  font-size: ($veinte)-5;
+                  margin: 0px 0px ($veinte)-50 0px;}
+
+    /*comentarios*/
+    
+    section {background-color: $azulOsc;
+            padding: 0px ($veinte)-5 $veinte*2 ($veinte)-5;
+            margin: 0px 0px $veinte 0px !important;}
+
+    .iconoComentario {width: $punto;
+                     height: $punto;}
+
+    .card-header {font-size: ($veinte)-5;
+                 margin-bottom: 0;
+                 background-color: $marino !important;}
+
+    .card-body {font-size: ($veinte)-7;
+                min-height: 1px;
+                padding: ($veinte)-10;}
+
+    h2 button .btn {width: $cien*2;
+                   height: $veinte;}
+
+    .btn-link {text-align: left;
+              color: $white;
+              text-decoration: none;}
+      
+    .btn-link:hover {color: $white;
+                    text-decoration: none;}
+
+    .botonCargar {width: $cien+50 !important;
+                 height: $veinte+5 !important;
+                 font-size: ($veinte)-8;
+                 margin: 0px 0px 0px ($veinte)-10 !important;}
+
+    .enviar {width: $veinte*3 !important;
+            height: $veinte+5 !important;
+            font-size: ($veinte)-8;
+            margin: 0px 0px 0px ($veinte)-17 !important;}
+}
+
+@media only screen and (min-width: 767.99px) and (max-width: 991.98px) {
+    .tabla__titulo {
+        h2 {background-color: $azul;
+            height: $veinte+10 !important;
+            padding: 0px !important;
+            font-size: $veinte !important;}
+    }
+
+    .tabla__valoracion {
+        h2 {background-color: $azul;
+            height: $veinte+10 !important;
+            padding: 0px !important;
+            font-size: $veinte !important;}
+    }
+
+    .tabla__descripcion {
+        h2 {background-color: $azul;
+            height: $veinte+10 !important;
+            padding: 0px !important;
+            font-size: $veinte !important;}
+    }
+
+    .tabla__lista {padding: 0px $cien 0px ($cien)-20 !important;
+                  text-align: left;
+                  font-weight: bold;
+                  font-size: ($veinte)-3;
+                  margin: 0px 0px ($veinte)-40 0px;}
+
+    /*comentarios*/
+    
+    section {background-color: $azulOsc;
+            padding: 0px ($veinte)-5 $veinte*2 ($veinte)-5;
+            margin: 0px 0px $veinte 0px !important;}
+
+    .iconoComentario { width: $punto;
+                     height: $punto;}
+
+    .card-header {font-size: ($veinte)-5;
+                 padding: 0px 0px ($veinte)-10 0px;
+                 margin-bottom: 0;
+                 background-color: $marino !important;}
+
+    .card-body {font-size: $veinte;
+               min-height: 1px;
+               padding: ($veinte)-10;}
+
+    h2 button .btn {width: $cien*2;
+                   height: $veinte;}
+
+    .btn-link {text-align: left;
+              color: $white;
+              text-decoration: none;}
+      
+    .btn-link:hover {color: $white;
+                    text-decoration: none;}
+
+    .botonCargar {width: $cien*3-50 !important;
+                 height: $veinte+10 !important;
+                 font-size: ($veinte)-5;
+                 margin: 0px 0px 0px ($veinte)-10 !important;}
+
+    .enviar {width: $veinte*3+10 !important;
+            height: $veinte+10 !important;
+            font-size: ($veinte)-5;
+            margin: 0px 0px 0px ($veinte)-17 !important;}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1099px) {
+    .tabla__titulo {
+        h2 {background-color: $azul;
+            height: $veinte+30 !important;
+            padding: 0px !important;
+            font-size: $veinte+12 !important;}
+    }
+
+    .tabla__valoracion {
+        h2 {background-color: $azul;
+            height: $veinte+30 !important;
+            padding: 0px !important;
+            font-size: $veinte+12 !important;}
+    }
+
+    .tabla__descripcion {
+        h2 {background-color: $azul;
+            height: $veinte+30 !important;
+            padding: 0px !important;
+            font-size: $veinte+12 !important;}
+    }
+
+    .tabla__lista {padding: 0px $cien+20 0px $cien+20 !important;
+                  text-align: left;
+                  font-weight: bold;
+                  font-size: $veinte+2;
+                  margin: 0px 0px ($veinte)-40 0px;}
+
+    /*comentarios*/ 
+    
+    section {background-color: $azulOsc;
+            padding: 0px ($veinte)-5 $veinte+30 ($veinte)-5;
+            margin: 0px 0px $veinte+30 0px !important;}
+
+    .iconoComentario {width: $punto+20;
+                     height: $punto+20;
+                     margin: 0px 0px ($veinte)-10 0px;}
+
+    .card-header {padding: 0px 0px $veinte+10 0px;
+                 margin-bottom: 0;
+                 background-color: $marino !important;}
+
+    .card-body {font-size: $veinte+5;
+                min-height: 1px;
+                padding: $veinte;}
+
+    h2 button .btn{width: $cien*2;
+                  height: $veinte;}
+
+    .btn-link {font-size: $veinte+10;
+              text-align: left;
+              color: $white;
+              text-decoration: none;}
+      
+    .btn-link:hover {color: $white;
+                    text-decoration: none;}
+
+    .botonCargar {width: $cien*3 !important;
+                 height: $veinte+25 !important;
+                 font-size: $veinte;
+                 margin: $veinte 0px 0px ($veinte)-10 !important;}
+
+    .enviar {width: $cien !important;
+            height: $veinte+25 !important;
+            font-size: $veinte;
+            margin: 0px 0px 0px ($veinte)-17 !important;}
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1199.98px) {
+    .tabla__titulo {
+        h2 {background-color: $azul;
+            height: $veinte+30 !important;
+            padding: 0px !important;
+            font-size: $veinte+12 !important;}
+    }
+
+    .tabla__valoracion {
+        h2 {background-color: $azul;
+            height: $veinte+30 !important;
+            padding: 0px !important;
+            font-size: $veinte+12 !important;}
+    }
+
+    .tabla__descripcion {
+        h2 {background-color: $azul;
+            height: $veinte+30 !important;
+            padding: 0px !important;
+            font-size: $veinte+12 !important;}
+    }
+
+    .tabla__lista {padding: 0px $cien+20 0px $cien+20 !important;
+                  text-align: left;
+                  font-weight: bold;
+                  font-size: $veinte+2;
+                  margin: 0px 0px ($veinte)-40 0px;}
+
+    /*comentarios*/ 
+    
+    section {background-color: $azulOsc;
+            padding: 0px ($veinte)-5 $veinte+30 ($veinte)-5;
+            margin: 0px 0px $veinte+30 0px !important;}
+
+    .iconoComentario {width: $punto+20;
+                     height: $punto+20;
+                     margin: 0px 0px ($veinte)-10 0px;}
+
+    .card-header {padding: 0px 0px $veinte+10 0px;
+                 margin-bottom: 0;
+                 background-color: $marino !important;}
+
+    .card-body {font-size: $veinte+5;
+                min-height: 1px;
+                padding: $veinte;}
+
+    h2 button .btn {width: $cien*2;
+                   height: $veinte;}
+
+    .btn-link {font-size: $veinte+10;
+              text-align: left;
+              color: $white;
+              text-decoration: none;}
+      
+    .btn-link:hover {color: $white;
+                    text-decoration: none;}
+
+    .botonCargar {width: $cien*4 !important;
+                 height: $veinte+25 !important;
+                 font-size: $veinte;
+                 margin: $veinte 0px 0px ($veinte)-10 !important;}
+
+    .enviar {width: $cien !important;
+            height: $veinte+25 !important;
+            font-size: $veinte;
+            margin: 0px 0px 0px ($veinte)-17 !important;}
+}
+
+@media only screen and (min-width: 1200px) {
+    .tabla__titulo {
+        h2 {background-color: $azul;
+            height: $veinte+30 !important;
+            padding: 0px !important;
+            font-size: $veinte+15!important;}
+    }
+
+    .tabla__valoracion {
+        h2 {background-color: $azul;
+            height: $veinte+30 !important;
+            padding: 0px !important;
+            font-size: $veinte+15 !important;}
+    }
+
+    .tabla__descripcion {
+        h2 {background-color: $azul;
+            height: $veinte+30 !important;
+            padding: 0px !important;
+            font-size: $veinte+15 !important;}
+    }
+
+    .tabla__lista {padding: 0px $cien+10 0px $cien+20 !important;
+                  text-align: left;
+                  font-weight: bold;
+                  font-size: $veinte+5;
+                  margin: 0px 0px ($veinte)-40 0px;}
+
+    /*comentarios*/ 
+    
+    section {background-color: $azulOsc;
+            padding: 0px ($veinte)-5 $veinte+30 ($veinte)-5;
+            margin: 0px 0px $veinte+30 0px !important;}
+
+    .iconoComentario {width: $punto+20;
+                     height: $punto+20;
+                     margin: 0px 0px ($veinte)-10 0px;}
+
+    .card-header {padding: 0px 0px $veinte+20 0px;
+                 margin-bottom: 0;
+                 background-color: $marino !important;}
+
+    .card-body {font-size: $veinte+5;
+                min-height: 1px;
+                padding: $veinte+30;}
+
+    h2 button .btn{width: $cien*3;
+                  height: $veinte;
+                  text-decoration: none;
+                  background-color: transparent;
+                  border: transparent;}
+
+    .btn-link {font-size: $veinte+13;
+              text-align: left;
+              color: $white;
+              text-decoration: none;}
+      
+    .btn-link:hover {color: $white;
+                    text-decoration: none;}
+
+    .botonCargar {width: $cien*4 !important;
+                 height: $veinte+25 !important;
+                 font-size: $veinte;
+                 margin: $veinte 0px 0px ($veinte)-10 !important;}
+
+    .enviar {width: $cien !important;
+            height: $veinte+25 !important;
+            font-size: $veinte;
+            margin: 0px 0px 0px ($veinte)-17 !important;}
+
+}

@@ -1,0 +1,306 @@
+/*Accesorios*/
+
+$rose: rgb(158, 78, 78);
+$black: black;
+$white: #ffffff;
+$purple: rgb(106, 108, 240);
+
+$respon: 100%;
+$pixel: 10px;
+
+
+@media only screen and (max-width: 335px) {
+        /*botonArriba*/
+.BotonArriba {text-align: center;
+             padding: 0px 0px $pixel 0px;}
+
+.BotonArriba__diseño {color: $rose;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    font-size: ($respon)-30;
+                    transition: all 0.5s;}
+
+
+.BotonArriba__diseño:hover {color: $black;
+                            font-size: ($respon)-20;
+                            text-decoration: none;}
+
+.BotonArriba--listadoSecciones {padding: 0px !important;
+                                margin: 0px 0px $pixel 0px;}
+
+        /*paginacion*/
+
+.page-link {font-size: $pixel+1;
+            position: relative;
+            display: block;
+            padding: ($pixel)-8 $pixel+3;
+            margin-left: -1px;
+            line-height: 1.25;
+            color: $white;
+            background-color: $purple;
+            border: 1px solid $white;
+            transition: all 0.2s;}
+
+.pagination {display: -ms-flexbox;
+            display: flex;
+            padding-left: 0;
+            list-style: none;
+            border-radius: 0.25rem;
+            margin: ($pixel)-30 0px $pixel+5 0px;}
+}
+
+@media only screen and (min-width: 374px) and (max-width:378px) {
+                /*Boton Arriba*/
+    .BotonArriba {text-align: center;
+                  padding: $pixel/2 0px $pixel+5 0px;}
+
+    .BotonArriba__diseño {color: $rose;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        font-size: ($respon)-30;
+                        transition: all 0.5s;}   
+
+    .BotonArriba__diseño:hover {color: $black;
+                                font-size: ($respon)-15;
+                                text-decoration: none;}
+                                
+    .BotonArriba--listadoSecciones {padding: 0px !important;
+                                    margin: ($pixel)-8 0px ($pixel)-80 0px !important;}
+
+                /*paginacion*/
+    .page-link {font-size: $pixel+3;
+                position: relative;
+                display: block;
+                padding: ($pixel)/2-2.5 $pixel+2;
+                margin-left: -1px;
+                line-height: 1.25;
+                color: $white;
+                background-color: $purple;
+                border: 1px solid $white;
+                transition: all 0.2s;}
+
+    .pagination {display: -ms-flexbox;
+                display: flex;
+                padding-left: 0;
+                list-style: none;
+                border-radius: 0.25rem;
+                margin: ($pixel)-30 0px $pixel+5 0px;}
+}
+
+@media only screen and (min-width:340px) and (max-width: 575.98px) {
+                /*botonArriba*/
+    .BotonArriba {text-align: center;
+                  padding: $pixel/2 0px $pixel+5 0px;}
+     
+    .BotonArriba__diseño {color: $rose;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        font-size: ($respon)-30;
+                        transition: all 0.5s;}
+                        
+    .BotonArriba__diseño:hover {color: $black;
+                                font-size: ($respon)-15;
+                                text-decoration: none;}
+
+    .BotonArriba--listadoSecciones {padding: 0px !important;
+                                    margin: ($pixel)/2-3 0px ($pixel)-40 0px !important;} 
+                /*paginacion*/                          
+    .page-link {font-size: 13px;
+                position: relative;
+                display: block;
+                padding: ($pixel)/2-2.5 $pixel+2;
+                margin-left: -1px;
+                line-height: 1.25;
+                color: $white;
+                background-color: $purple;
+                border: 1px solid $white;
+                transition: all 0.2s;}
+
+    .pagination {display: -ms-flexbox;
+                display: flex;
+                padding-left: 0;
+                list-style: none;
+                border-radius: 0.25rem;
+                margin: ($pixel)-30 0px ($pixel)-30 0px;}
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+                /*boton arriba*/
+    .BotonArriba {text-align: center;
+                  padding: $pixel/2 0px $pixel+8 0px;}
+
+    .BotonArriba__diseño {color: $rose;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        font-size: ($respon)-18;
+                        transition: all 0.5s;}
+
+    .BotonArriba__diseño:hover {color: black;
+                                font-size: ($respon)-10;
+                                text-decoration: none;}
+
+    .BotonArriba--listadoSecciones {padding: 0px !important;
+                                    margin: $pixel 0px $pixel*2 0px !important;}
+                /*paginacion*/
+    .page-link {font-size: $pixel+5;
+                position: relative;
+                display: block;
+                padding: $pixel/2-2 $pixel+7;
+                margin-left: -1px;
+                line-height: 1.25;
+                color: $white;
+                background-color: $purple;
+                border: 1px solid $white;
+                transition: all 0.2s;}
+
+    .pagination {display: -ms-flexbox;
+                display: flex;
+                padding-left: 0;
+                list-style: none;
+                border-radius: 0.25rem;
+                margin: ($pixel)-30 0px $pixel+5 0px;}
+    
+}
+
+@media only screen and (min-width: 767.99px) and (max-width: 991.98px) {
+                /*boton arriba*/
+    .BotonArriba {text-align: center;
+                  padding: $pixel*2 0px $pixel*2 0px;}
+
+    .BotonArriba__diseño {color: $rose;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        font-size: $respon+10;
+                        transition: all 0.5s;}
+
+    .BotonArriba__diseño:hover {color: black !important;
+                                font-size: $respon+20;
+                                text-decoration: none;}
+
+    .BotonArriba--listadoSecciones {padding: 0px !important;
+                                    margin: $pixel+5 0px $pixel*2 0px !important;}
+                /*paginacion*/
+    .page-link {font-size: $pixel*2;
+                position: relative;
+                display: block;
+                padding: $pixel/2-2 $pixel+8;
+                margin-left: -1px;
+                line-height: 1.25;
+                color: $white;
+                background-color: $purple;
+                border: 1px solid $white;
+                transition: all 0.2s;}
+    
+    .pagination {display: -ms-flexbox;
+                display: flex;
+                padding-left: 0;
+                list-style: none;
+                border-radius: 0.25rem;
+                margin: ($pixel)-30 0px $pixel+5 0px;}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1099px) {
+                /*boton arriba*/
+    .BotonArriba {text-align: center;
+                  padding: $pixel*2+5 0px $pixel*2+5 0px;}
+    
+    .BotonArriba__diseño {color: $rose;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        font-size: $pixel*2+5;
+                        transition: all 0.5s;}
+        
+    .BotonArriba__diseño:hover {color: $black;
+                                font-size: $pixel*2+8;
+                                text-decoration: none;}
+
+    .BotonArriba--listadoSecciones {padding: 0px !important;
+                                    margin: $pixel 0px $pixel*3 0px !important;}
+
+                /*paginacion*/
+    .page-link {font-size: $pixel*3;
+                position: relative;
+                display: block;
+                padding: $pixel/2 $pixel*2+5;
+                margin-left: -1px;
+                line-height: 1.25;
+                color: $white;
+                background-color: $purple;
+                border: 1px solid $white;
+                transition: all 0.2s;}
+
+    .pagination {display: -ms-flexbox;
+                display: flex;
+                padding-left: 0;
+                list-style: none;
+                border-radius: 0.25rem;
+                margin: ($pixel)-30 0px $pixel+5 0px;}
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1199.98px) {
+                /*boton arriba*/
+    .BotonArriba {text-align: center;
+                  padding: $pixel*2+5 0px $pixel*2+5 0px;}
+
+    .BotonArriba__diseño {color: $rose;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        font-size: $pixel*2+5;
+                        transition: all 0.5s;}
+        
+    .BotonArriba__diseño:hover {color: $black;
+                                font-size: $pixel*2+8;
+                                text-decoration: none;}
+                /*paginacion*/ 
+    .page-link {font-size: $pixel*3;
+                position: relative;
+                display: block;
+                padding: $pixel/2 $pixel*2+5;
+                margin-left: -1px;
+                line-height: 1.25;
+                color: $white;
+                background-color: $purple;
+                border: 1px solid $white;
+                transition: all 0.2s;}
+
+    .pagination {display: -ms-flexbox;
+                display: flex;
+                padding-left: 0;
+                list-style: none;
+                border-radius: 0.25rem;
+                margin: ($pixel)-30 0px $pixel+5 0px;}
+}
+
+@media only screen and (min-width: 1200px) {
+                /*Boton arriba*/
+    .BotonArriba {text-align: center;
+                  padding: $pixel*3 0px $pixel*3 0px;}
+
+    .BotonArriba__diseño {color: $rose;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        font-size: $pixel*2+8;
+                        transition: all 0.5s;}
+    
+    .BotonArriba__diseño:hover {color: $black;
+                                font-size: $pixel*3;
+                                text-decoration: none;}  
+                /*paginacion*/ 
+    .page-link {font-size: $pixel*3;
+                position: relative;
+                display: block;
+                padding: $pixel/2 $pixel*3;
+                margin-left: -1px;
+                line-height: 1.25;
+                color: $white;
+                background-color: $purple;
+                border: 1px solid $white;
+                transition: all 0.2s;}
+    
+    .pagination {display: -ms-flexbox;
+                display: flex;
+                padding-left: 0;
+                list-style: none;
+                border-radius: 0.25rem;
+                margin: ($pixel)-30 0px $pixel+5 0px;}                
+}

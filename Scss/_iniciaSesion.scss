@@ -1,0 +1,217 @@
+/* INICIA SESION/REGISTRATE*/
+
+$porciento: 10%;
+$pixel: 10px;
+
+$rose: rgb(219, 134, 134);
+$purple: rgb(92, 21, 114);
+
+@media only screen and (max-width: 335px) {
+            /*formulario*/
+.tituloInicia {margin: $pixel/2 0px 0px 0px;
+              text-shadow: ($pixel)/2-4 ($pixel)/2-3 ($pixel)/2-3 $rose;}
+
+.form {text-align: center;
+        margin: 0px ($porciento)/2-2 ($porciento)/2-3 ($porciento)/2-2;
+        color: $purple;}
+
+.form__espacio {padding: ($porciento)/2-3 ;
+                border: ($pixel)/2-3 solid $rose;
+                font-size: $pixel+3;}
+
+.form__text {text-align: center;
+            font-size: $pixel+8;
+            font-weight: bold;}
+
+}
+
+@media only screen and (min-width: 374px) and (max-width:378px) {
+    .tituloInicia {margin: $pixel 0px 0px 0px !important;
+                  text-shadow: ($pixel)/2-4 ($pixel)/2-3 ($pixel)/2-3 $rose;}
+
+    .form {text-align: center;
+          margin: ($porciento)/2 ($porciento)/2-2 0% ($porciento)/2-2!important;
+          color: $purple;}
+
+    .form--diseño {text-align: center;
+                  margin: $porciento ($porciento)/2-2 ($porciento)/2-10 ($porciento)/2-2 !important;
+                  color: $purple;}
+
+    .form__espacio {padding: ($porciento)/2-1 0% $porciento 0% !important;
+                    border: ($pixel)/2-3 solid $rose;
+                    font-size: $pixel+3;}
+
+    .form__text {text-align: center;
+                font-size: $pixel+8;
+                font-weight: bold;}
+}
+
+@media only screen and (min-width:340px) and (max-width: 575.98px) {
+    .tituloInicia {margin: $pixel/2 0px 0px 0px;
+                  text-shadow: ($pixel)/2-4 ($pixel)/2-3 ($pixel)/2-3 $rose;}
+
+    .form {text-align: center;
+          margin: ($porciento)/2-3 ($porciento)/2-2 ($porciento)/2 ($porciento)/2-2;
+          color: $purple;}
+
+    .form--diseño {text-align: center;
+                  margin: 0% ($porciento)/2-2 0% ($porciento)/2-2;
+                  color: $purple;}
+
+    .form__espacio {padding: ($porciento)/2 0% ($porciento)/2 0%;
+                    border: ($pixel)/2-3 solid $rose;
+                    font-size: $pixel+3;}
+
+    .form__text {text-align: center;
+                font-size: $pixel+8;
+                font-weight: bold;}
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    .tituloInicia {margin: $pixel/2 0px 0px 0px;
+                  text-shadow: ($pixel)/2-4 ($pixel)/2-3 ($pixel)/2-3 $rose;}
+
+    .form {text-align: center;
+          margin: 0% ($porciento)/2-2 ($porciento)/2-3 ($porciento)/2-2;
+          color: $purple;}
+
+    .form__espacio {padding: ($porciento)/2-3;
+                    border: ($pixel)/2-3 solid $rose;
+                    font-size: $pixel+3;}
+
+    .form__text {text-align: center;
+                font-size: $pixel+8;
+                font-weight: bold;}
+}
+
+@media only screen and (min-width: 767.99px) and (max-width: 991.98px) {
+    .tituloInicia {margin: $pixel+5 0px 0px 0px;
+                  text-shadow: ($pixel)/2-4 ($pixel)/2-3 ($pixel)/2-3 $rose;}
+
+    .form {text-align: center;
+          margin: ($porciento)/2-4 ($porciento)/2-2 ($porciento)/2-3 ($porciento)/2-2;
+          color: $purple;}
+
+    .form--diseño {text-align: center;
+                  margin: ($porciento)/2 ($porciento)/2-2 ($porciento)-3 ($porciento)/2-2;
+                  color: $purple;}
+
+    .form__espacio {padding: ($porciento)/2-3;
+                    border: ($pixel)/2-3 solid $rose;
+                    font-size: $pixel*2;}
+
+    .form__text {text-align: center;
+                font-size: $pixel*2+8;
+                font-weight: bold;}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1099px) {
+    .tituloInicia {margin: $pixel+5 0px 0px 0px;
+                  text-shadow: ($pixel)/2-4 ($pixel)/2-3 ($pixel)/2-3 $rose;}
+
+    .form {text-align: center;
+          margin: 0% ($porciento)/2-2 ($porciento)/2-3 ($porciento)/2-2;
+          color: $purple;}
+
+    .form--diseño {text-align: center;
+                  margin: 0% ($porciento)/2-2 ($porciento)/2-3 ($porciento)/2-2;
+                  color: $purple;}
+
+    .form__espacio {padding: ($porciento)/2-3;
+                    border: ($pixel)/2-3 solid $rose;
+                    font-size: $pixel*3;}
+
+    .form__text {text-align: center;
+                font-size: $pixel*3+5;
+                font-weight: bold;}
+                
+    .input {height: $pixel*3;
+            width: $pixel*30;
+            font-size: $pixel*2;}
+
+    .check {width: $pixel*2;
+            height: $pixel*2;}
+
+    .redes {width: $pixel*12;
+            height: $pixel*3+5;
+            font-size: $pixel*2;}
+
+    .botonInput {width: $pixel*10;
+                height: $pixel*3+5;
+                font-size: $pixel*2;
+                font-family: 'Lexend', sans-serif;}
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1199.98px) {
+    .tituloInicia {margin: $pixel 0px 0px 0px !important;
+                  text-shadow: ($pixel)/2-4 ($pixel)/2-3 ($pixel)/2-3 $rose;}
+
+    .form {text-align: center;
+            margin: ($porciento)/2-4 ($porciento)/2-2 0% ($porciento)/2-2 !important;
+            color: $purple;}
+
+    .form--diseño {text-align: center;
+                  margin: ($porciento)/2-1 ($porciento)/2-2 ($porciento)/2 ($porciento)/2-2 !important;
+                  color: $purple;}
+
+    .form__espacio {padding: ($porciento)/2-3 0% ($porciento)/2-3 0% !important;
+                    border: ($pixel)/2-3 solid $rose;
+                    font-size: $pixel*3;}             
+
+    .form__text {text-align: center;
+                font-size: $pixel*4;
+                font-weight: bold;}
+                
+    .input {height: $pixel*3;
+            width:  $pixel*30;
+            font-size: $pixel*2;}
+
+    .check {width: $pixel*2;
+            height: $pixel*2;}
+
+    .redes {width: $pixel*12;
+            height: $pixel*3+5;
+            font-size: $pixel*2;}
+
+    .botonInput {width: $pixel*10;
+                height: $pixel*3+5;
+                font-size: $pixel*2;
+                font-family: 'Lexend', sans-serif;}
+}
+
+@media only screen and (min-width: 1200px) {
+    .tituloInicia {margin: $pixel 0px 0px 0px !important;
+                  text-shadow: ($pixel)/2-4 ($pixel)/2-3 ($pixel)/2-3 $rose;}
+
+    .form {text-align: center;
+          margin: ($porciento)/2-4 ($porciento)/2-2 0% ($porciento)/2-2 !important;
+          color: $purple;}
+
+    .form--diseño {text-align: center;
+                  margin: ($porciento)/2-1 ($porciento)/2-2 ($porciento)/2 ($porciento)/2-2 !important;
+                  color: $purple;}
+
+    .form__espacio {padding: ($porciento)/2-3 0% ($porciento)/2-3 0% !important;
+                    border: ($pixel)/2-3 solid $rose;
+                    font-size: $pixel*3;}
+                    
+    .form__text {text-align: center;
+                font-size: $pixel*4;
+                font-weight: bold;}
+                
+    .input {height: $pixel*3;
+            width: $pixel*30;
+            font-size: $pixel*2;}
+
+    .check {width: $pixel*2;
+            height: $pixel*2;}
+
+    .redes {width: $pixel*12;
+            height: $pixel*3+5;
+            font-size: $pixel*2;}
+
+    .botonInput {width: $pixel*10;
+                height: $pixel*3+5;
+                font-size: $pixel*2;
+                font-family: 'Lexend', sans-serif;}
+}

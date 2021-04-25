@@ -1,0 +1,125 @@
+/*footer*/
+
+$respon: 100%;
+$pixel: 30px;
+
+$backg: #9f6abe;
+$blanco: white;
+
+.footer {background-color: $backg;
+    width: $respon;
+    height: $respon;
+    overflow: hidden;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: baseline;
+    flex: 1;}
+
+.footer__foo {display: flex;
+             flex-flow: column nowrap;
+             justify-content: space-evenly;
+             align-items: center;
+             flex: 1;}
+
+.footer__fooDos {display: flex;
+                flex-flow: column nowrap;
+                justify-content: space-evenly;
+                align-items: center;
+                flex: 1;}
+
+@media only screen and (max-width: 335px) {
+    .footer__texto {color: white;
+                    font-size: ($respon)-20;
+                    text-decoration: none;}
+
+    .footer__texto:hover {color: $blanco;
+                          text-decoration: none;}
+
+    .footer__separacion {margin: 5% 0% 5% 0% !important;}
+}
+
+@media only screen and (min-width: 374px) and (max-width:378px) {
+    .footer--trans {transform: translate(0px, 85%) !important;
+                    margin: 0px;}
+
+    .footer__texto {color: $blanco;
+                    font-size: ($respon)-25;
+                    text-decoration: none;}
+
+    .footer__texto:hover {color: $blanco;
+                          text-decoration: none;}                    
+
+    .footer__separacion {margin: 5% 0% 5% 0% !important;}
+}
+
+@media only screen and (min-width:340px) and (max-width: 575.98px) {
+    .footer--trans {transform: translate(0px, 40%);
+                    margin: 0px;}
+
+    .footer__texto {color: $blanco;
+                    font-size: ($respon)-25;
+                    text-decoration: none;}
+
+    .footer__texto:hover {color: $blanco;
+                          text-decoration: none;}                    
+    
+    .footer__separacion {margin: 5% 0% 5% 0% !important;}                        
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    .footer__texto {color: $blanco;
+                    font-size: ($respon)-10;
+                    text-decoration: none;}
+
+    .footer__texto:hover {color: $blanco;
+                          text-decoration: none;}
+
+    .footer__separacion {margin: 6% 0% 5% 0% !important;}                        
+}
+
+@media only screen and (min-width: 767.99px) and (max-width: 991.98px) {
+    .footer--trans {margin: 0px;}
+
+    .footer__texto {color: $blanco !important;
+                    font-size: $respon+20;
+                    text-decoration: none !important;}
+
+    .footer__texto:hover {color: $blanco;
+                          text-decoration: none;}                    
+
+    .footer__separacion {margin: 8% 0% 8% 0% !important;}                        
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1099px) {
+    .footer__texto {color: $blanco;
+                    font-size: $pixel;
+                    text-decoration: none;}
+    
+    .footer__texto:hover {color: $blanco;
+                          text-decoration: none;}
+
+    .footer__separacion {margin: 10% 0% 10% 0% !important;}                        
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1199.98px) {
+    .footer__texto {color: $blanco;
+                    font-size: $pixel;
+                    text-decoration: none;}
+
+    .footer__texto:hover {color: $blanco;
+                          text-decoration: none;}
+
+    .footer__separacion {margin: 10% 0% 10% 0% !important;}                        
+}
+
+@media only screen and (min-width: 1200px) {
+    .footer__texto {color: $blanco;
+                    font-size: $pixel;
+                    text-decoration: none;}
+
+    .footer__texto:hover {color: $blanco;
+                          text-decoration: none;}
+
+    .footer__separacion {margin: 10% 0% 10% 0% !important;}                            
+}

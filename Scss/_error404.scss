@@ -1,0 +1,65 @@
+/*ERROR 404*/
+
+$respon: 100%;
+$pixel: 10px;
+
+.error {display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: baseline;}
+
+@media only screen and (max-width: 335px) {
+    .error__texto {font-size: $pixel;
+        font-weight: bold;
+        padding: 0px 0px 0px 0px;
+        margin: 197px 0px 200px 0px;}
+}
+
+@media only screen and (min-width: 374px) and (max-width: 378px) {
+    .error__texto {font-size: $respon;
+        font-weight: bold;
+        padding: 0px 0px 0px 0px;
+        margin: 300px 0px 230px 0px !important;}
+}
+
+@media only screen and (min-width: 340px) and (max-width: 575.98px) {
+    .error__texto {font-size: $respon;
+        font-weight: bold;
+        padding: 0px 0px 0px 0px;
+        margin: 230px 0px 266px 0px;}
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    .error__texto {font-size: $respon;
+        font-weight: bold;
+        padding: 0px 0px 0px 0px;
+        margin: 100px 0px 100px 0px;}
+}
+
+@media only screen and (min-width: 767.99px) and (max-width: 991.98px) {
+    .error__texto {font-size: $respon+50;
+        font-weight: bold;
+        padding: 0px 0px 0px 0px;
+        margin: 350px 0px 370px 0px;}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1099px) {
+    .error__texto {font-size: $respon*2;
+        font-weight: bold;
+        padding: 0px 0px 0px 0px;
+        margin: 450px 0px 450px 0px;}
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1199.98px) {
+    .error__texto {font-size: $respon*2;
+        font-weight: bold;
+        padding: 0px 0px 0px 0px;
+        margin: 200px 0px 200px 0px;}
+}
+
+@media only screen and (min-width: 1200px) {
+    .error__texto {font-size: $respon*2;
+        font-weight: bold;
+        padding: 0px 0px 0px 0px;
+        margin: 200px 0px 250px 0px;}
+}

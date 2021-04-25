@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="OPEN MINDED, INICIA SESION, REGISTRATE, OPINIONES">
+    <meta name="description" content="En Open Minded estamos inspirados en la busqueda de respuestas para quienes quieren saber mas opiniones que la propia sobre productos comestibles, especificamente aquellos encontrados en supermercados.">
+    <title>INICIA SESION - REGISTRATE / OPEN MINDED</title>
+    <link rel="stylesheet" href="Bootstrap/Css/bootstrap.css">
+    <link rel="stylesheet" href="Css/estilos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header id="irArriba">
+        <div class="div__titulo">
+            <h1>
+                <img src="Imagenes/Logo/logo.png" alt="logo1" class="h1__logo">
+                <em class="openMinded"><a href="index.html">Open Minded</a></em>
+                <img src="Imagenes/Logo/logo2.png" alt="logo2" class="h1__logo">
+            </h1>
+            <h2>Valoramos tu opinión </h2>
+        </div>
+        <nav>
+            <ul>
+                <li class="nav-item">
+                    <a class="nav-link menu__texto" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link menu__texto" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Productos</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item menu__texto" href="productos.html">Nuevos</a>
+                        <a class="dropdown-item menu__texto" href="productos.html">Todos</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link menu__texto" href="listado-secciones.html">Secciones</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link menu__texto" href="quienes-somos.html">Quienes somos</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link menu__texto" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Contacto</a>
+                    <div class="dropdown-menu">
+                    <a class="dropdown-item menu__texto" href="inicia-sesion-registro.html">Iniciar sesion</a>
+                    <a class="dropdown-item menu__texto" href="inicia-sesion-registro.html">Registrate</a>
+                    <a class="dropdown-item menu__texto" href="contacto.html">Redes</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2 class="tituloInicia"><em>Inicia sesión/Registrate</em></h2>
+
+    <form action="" class="form">
+        <fieldset class="form__espacio">
+            <legend class="form__text">Iniciar sesion</legend>
+            <br>
+            <label for="Email">Email:</label>
+            <input class="input" type="email" name="Email" placeholder="nombre@gmail.com">
+            <br>
+            <br>
+            <label for="Contraseña">Contraseña:</label>
+            <input class="input" type="password" name="Contraseña">
+            <br>
+            <br>
+            <label for="Recordar">¿Recordar sesion?</label>
+            <input class="check" type="checkbox" name="Recordar">
+            <br>
+            <br>
+            <!--Botones-->
+            <input class="botonInput" type="reset" value="Limpiar">
+            <input class="botonInput" type="submit" value="Enviar">
+        </fieldset>
+    </form>
+    <form action="" class="form form--diseño">
+        <fieldset class="form__espacio">
+            <legend class="form__text">Crea tu cuenta</legend>
+            <br>
+            <label for="nombre">Nombre:</label>
+            <input class="input" type="text" name="nombre" placeholder="Julia">
+            <br>
+            <!--Salto-->
+            <label for="apellido">Apellido:</label>
+            <input class="input" type="text" name="apellido" placeholder="Lopez">
+            <br>
+            <!--Salto-->
+            <br>
+
+            <label for="email">Email:</label>
+            <input class="input" type="email" name="email" placeholder="nombre@gmail.com">
+            <br>
+            <br>
+            <label for="Contraseña">Contraseña:</label>
+            <input class="input" type="password" name="Contraseña">
+            <br>
+            <label for="Repetir contraseña">Repetir contraseña:</label>
+            <input class="input" type="password" name="Repetir contraseña">
+            <br>
+            <br>
+            <!--En donde nos conocieron-->
+            <label for="Redes sociales">¿Donde conoció la pagina?</label><br>
+            <select class="redes" name="Redes sociales">
+                <option value="Facebook">Facebook</option>
+                <option value="Instagram">Instagram</option>
+                <option value="Twitter">Twitter</option>
+                <option value="Publicidad">Publicidad</option>
+                <option value="otros">Otros</option>
+            </select>
+            <input class="input" type="text" name="Otros" placeholder="Otros">
+            <!--Botones-->
+            <input  class="botonInput" type="reset" value="Limpiar">
+            <br>
+            <br>
+            <input class="botonInput" type="submit" value="Enviar">
+            
+            <label for="Email">¿Desea recibir info diaria?</label>
+            <input class="check" type="checkbox" name="Email">
+        </fieldset>
+    </form>
+
+    <footer class="footer footer--trans">
+        <div class="footer__foo">
+            <div>
+                <p class="footer__separacion">
+                    <a href="productos.html" class="footer__texto">Nuevos productos</a>
+                </p>
+            </div>
+            <div>
+                <p class="footer__separacion">
+                    <a href="productos.html" class="footer__texto">Destacados</a>
+                </p>
+            </div>
+            <div>
+                <p class="footer__separacion">
+                    <a href="listado-secciones.html" class="footer__texto">Secciones</a>
+                </p>
+            </div>
+        </div>
+        <div class="footer__fooDos">
+            <div>
+                <p class="footer__separacion">
+                    <a href="quienes-somos.html" class="footer__texto">Quienes somos?</a>
+                </p>
+            </div>
+            <div>
+                <p class="footer__separacion">
+                    <a href="contacto.html" class="footer__texto">Contacto</a>
+                </p>
+            </div>
+            <div>
+                <p class="footer__separacion">
+                    <a href="inicia-sesion-registro.html" class="footer__texto">Inicia sesión/Registrate</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,328 @@
+/*Quienes Somos*/
+
+$rose: rgb(219, 134, 134);
+$size: 20px;
+
+.parrafoUno--tras {animation-name: parrafoUno;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-delay: 0s;}
+    
+@keyframes parrafoUno {
+    0% {
+        transform: translate(1000px, 0px);
+        }
+
+    10% {
+         transform: translate(900px, 0px);
+        }
+
+    20% {
+        transform: translate(800px, 0px);
+        }
+
+    30% {
+        transform: translate(700px, 0px);
+        }
+
+    40% {
+        transform: translate(600px, 0px);
+        }
+
+    50% {
+        transform: translate(500px, 0px);
+        }
+
+    60% {
+        transform: translate(400px, 0px);
+        }
+
+    70% {
+        transform: translate(300px, 0px);
+        }
+
+    80% {
+        transform: translate(200px, 0px);
+        }
+
+    90% {
+        transform: translate(100px, 0px);
+        }
+
+    100% {
+        transform: translate(10px, 0px);
+        }
+    }
+
+.parrafoDos--tras {animation-name: parrafoDos;
+                  animation-iteration-count: 1;
+                  animation-timing-function: linear;
+                  animation-duration: 2s;
+                  animation-delay: 0s;}
+
+@keyframes parrafoDos {
+    0% {
+        transform: translate(-1000px, 0px);
+        }
+
+    10% {
+        transform: translate(-900px, 0px);
+        }
+
+    20% {
+        transform: translate(-800px, 0px);
+        }
+
+    30% {
+        transform: translate(-700px, 0px);
+        }
+
+    40% {
+        transform: translate(-600px, 0px);
+        }
+
+    50% {
+        transform: translate(-500px, 0px);
+        }
+
+    60% {
+        transform: translate(-400px, 0px);
+        }
+
+    70% {
+        transform: translate(-300px, 0px);
+        }
+
+    80% {
+        transform: translate(-200px, 0px);
+        }
+
+    90% {
+        transform: translate(-100px, 0px);
+        }
+
+    100% {
+        transform: translate(-10px, 0px);
+        }
+    }
+
+.parrafoTres--tras {animation-name: parrafoTres;
+                    animation-iteration-count: 1;
+                    animation-timing-function: linear;
+                    animation-duration: 2s;
+                    animation-delay: 0s;}
+
+@keyframes parrafoTres {
+    0% {
+        transform: translate(1000px, 0px);
+        }
+
+    10% {
+        transform: translate(900px, 0px);
+        }
+
+    20% {
+        transform: translate(800px, 0px);
+        }
+
+    30% {
+        transform: translate(700px, 0px);
+        }
+
+    40% {
+        transform: translate(600px, 0px);
+        }
+
+    50% {
+        transform: translate(500px, 0px);
+        }
+
+    60% {
+        transform: translate(400px, 0px);
+        }
+
+    70% {
+        transform: translate(300px, 0px);
+        }
+
+    80% {
+        transform: translate(200px, 0px);
+        }
+
+    90% {
+        transform: translate(100px, 0px);
+        }
+
+    100% {
+        transform: translate(10px, 0px);
+        }
+    }
+
+@media only screen and (max-width: 335px) {
+    .quienesSomos {
+        margin: ($size)-15 0px 0px 0px;
+        text-shadow: 1px 2px 2px $rose;
+    }
+
+    .parrafoUno {text-align: center;
+                font-size: ($size)-5;
+                padding: ($size)/2;}
+
+    .parrafoDos {
+        text-align: center;
+        font-size: ($size)-5;
+        padding: ($size)/2;
+        font-weight: bold;}
+
+    .parrafoTres {text-align: center;
+                 font-size: ($size)-5;
+                 padding: ($size)/2 ($size)/2 $size ($size)/2;}
+}
+
+@media only screen and (min-width: 374px) and (max-width:378px) {
+    .quienesSomos {margin: ($size)-5 0px 0px 0px !important;
+                  text-shadow: 1px 2px 2px $rose;}
+
+    .parrafoUno {text-align: center;
+                font-size: ($size)-2;
+                padding: ($size)-5 ($size)-8 $size ($size)-8 !important;
+                margin: 0px;}
+
+    .parrafoDos {text-align: center;
+                font-size: ($size)-2;
+                padding: ($size)-5 $size*4 $size $size*4 !important;
+                margin: 0px;
+                font-weight: bold;}
+
+    .parrafoTres {text-align: center;
+                font-size: ($size)-2;
+                padding: ($size)/2 ($size)-5 0px ($size)-5 !important;
+                margin: 0px !important;}           
+}
+
+@media only screen and (min-width:340px) and (max-width: 575.98px) {
+    .quienesSomos {margin: ($size)-15 0px 0px 0px;
+                  text-shadow: 1px 2px 2px $rose;}
+
+    .parrafoUno {text-align: center;
+                font-size: ($size)-4;
+                padding: ($size)-5 ($size)-7 ($size)/2 ($size)-7;
+                margin: 0px;}         
+    
+    .parrafoDos {text-align: center;
+                font-size: ($size)-4;
+                padding: $size $size*4+6 ($size)-8 $size*4+6;
+                margin: 0px;
+                font-weight: bold;}
+                                    
+    .parrafoTres {text-align: center;
+                font-size: ($size)-4;
+                padding: $size ($size)-5 ($size)/2 ($size)-5;
+                margin: 0px;}             
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    .quienesSomos {margin: ($size)-15 0px 0px 0px;
+                  text-shadow: 1px 2px 2px $rose;}
+
+    .parrafoUno {text-align: center;
+                font-size: ($size)-4;
+                padding: 0px $size ($size)-15 $size;
+                margin: 0px;}
+
+    .parrafoDos {text-align: center;
+                font-size: ($size)-4;
+                padding: ($size)/2 $size*2+10 ($size)-15 $size*2+10;
+                margin: 0px;
+                font-weight: bold;}   
+                
+    .parrafoTres {text-align: center;
+                 font-size: ($size)-4;
+                 padding: ($size)/2 ($size)-5 $size ($size)-5;
+                 margin: 0px;}                    
+}
+
+@media only screen and (min-width: 767.99px) and (max-width: 991.98px) {
+    .quienesSomos {margin: $size 0px 0px 0px;
+                  text-shadow: 1px 2px 2px rgb(219, 134, 134);}
+
+    .parrafoUno {text-align: center;
+                font-size: $size+5;
+                padding: $size  $size*3+10  $size*2 $size*3+10;
+                margin: 0px;}
+
+    .parrafoDos {text-align: center;
+                font-size: $size+5;
+                padding: $size $size*7+10 $size $size*7+10;
+                margin: 0px;
+                font-weight: bold;}
+
+    .parrafoTres {text-align: center;
+                 font-size: $size+5;
+                 padding: $size*2+5 $size*3+10 $size*4 $size*3+10;
+                 margin: 0px;}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1099px) {
+    .quienesSomos {margin: $size 0px 0px 0px;
+                  text-shadow: 1px 2px 2px $rose;}
+
+    .parrafoUno {text-align: center;
+                font-size: $size+10;
+                padding: $size $size*3+10 $size*2+10 $size*3+10;
+                margin: 0px;}
+                
+    .parrafoDos {text-align: center;
+                font-size: $size+10;
+                padding: $size+5 $size*7+10 $size+30 $size*7+10;
+                margin: 0px;
+                font-weight: bold;}    
+                
+    .parrafoTres {text-align: center;
+                 font-size: $size+10;
+                 padding: $size+5 $size*3+10 $size*5 $size*3+10;
+                 margin: 0px;} 
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1199.98px) {
+    .quienesSomos {margin: $size 0px 0px 0px;
+                  text-shadow: 1px 2px 2px $rose;}
+
+    .parrafoUno {text-align: center;
+                font-size: $size+10;
+                padding: $size $size*3+10 $size $size*3+10;
+                margin: 0px;}
+                
+    .parrafoDos {text-align: center;
+                font-size: $size+10;
+                padding: $size $size*7+10 $size $size*7+10;
+                margin: 0px;
+                font-weight: bold;}
+                
+    .parrafoTres {text-align: center;
+                 font-size: $size+10;
+                 padding: $size $size*3+10 $size*4 $size*3+10;
+                 margin: 0px;}                  
+}
+
+@media only screen and (min-width: 1200px) {
+    .quienesSomos {margin: ($size)-10 0px 0px 0px;
+                  text-shadow: 1px 2px 2px $rose;}
+
+    .parrafoUno {text-align: center;
+                font-size: $size+10;
+                padding: $size $size*7+10 $size*2+10 $size*7+10;
+                margin: 0px;}
+                
+    .parrafoDos {text-align: center;
+                font-size: $size+10;
+                padding: $size $size*10+23 $size*2+10 $size*10+23;
+                margin: 0px;
+                font-weight: bold;}
+                
+    .parrafoTres {text-align: center;
+                 font-size: $size+10;
+                 padding: $size $size*7+10 $size*2+10 $size*7+10;
+                 margin: 0px;}                   
+}

@@ -1,0 +1,249 @@
+/*productos*/
+
+$responsive: 100%;
+$pixel: 20px;
+
+$red: rgba(245, 140, 157, 0.26);
+$blanco: #ffffff;
+$black: black;
+
+.alineacion {display: grid;
+            grid-template-rows: $responsive;
+            grid-template-columns: 25% 25% 25%;
+            grid-column-gap: 1%;
+            justify-content: space-evenly;
+            align-items: stretch;}
+
+.alineacion__trans {width: $responsive;
+                    height: $responsive;
+                    transition: all 0.2s ease-in;}
+
+.alineacion__trans:hover {transform: scale(1.08);}
+
+.parrafosProductos { list-style: none;
+                    text-align: center;
+                    line-height: none;
+                    text-transform: uppercase;
+                    display: grid;
+                    grid-template-columns: $responsive;}
+
+.parrafoProductos__seleccion:hover {text-decoration: none;
+                                    background-color: $red;
+                                    color: $black;}
+
+@media only screen and (max-width: 335px) {
+    .alineacion__margin {margin: 1% 0% 1% 0%;}
+
+    .alineacion__marginDos {margin: 1% 0% 0% 0%;}
+
+    .alineacion__color {background-color: $blanco;
+                        width: $responsive+10;
+                        height: ($responsive)-10;
+                        padding: 2% 5% 5% 2%;}
+                    
+    .alineacion__imagen { width: $responsive;
+                        height: $responsive;
+                        margin: 10% 5% 10% 2%;}
+    
+    .alineacion--centralizar {padding: 12% 0% 5% 0%;}
+
+    .alineacion--centralizarDos{padding: 12% 0% 11% 0%;}
+
+    .parrafoProductos--tamaño {font-size: ($responsive)/2-3;
+                               grid-template-rows: ($responsive)/2-20 ($responsive)/2 !important;}
+
+    .parrafoProductos__mobile { font-size: ($pixel)-8;
+                                width: $pixel+13;
+                                height: ($pixel)-6;
+                                padding: 0px 0px;
+                                margin: 2px 0px 0px 0px;}
+}
+
+@media only screen and (min-width: 374px) and (max-width:378px) {
+    .alineacion__margin {margin: 1% 0% 3% 0%;}
+
+    .alineacion__marginDos {margin: 3% 0% 1% 0%;}
+
+    .alineacion__color {background-color: $blanco;
+                        width: $responsive+10;
+                        height: ($responsive)-5;
+                        padding: 2% 5% 5% 2%;}
+
+    .alineacion__imagen {width: $responsive;
+                        height: $responsive;
+                        margin: 10% 5% 10% 2%;} 
+                        
+    .alineacion--centralizar {padding: 12% 0% 5% 0%;}
+
+    .alineacion--centralizarDos {padding: 12% 0% 11% 0%;}
+
+    .parrafoProductos--tamaño {font-size: $responsive/2;
+                              grid-template-rows: $responsive/2-20 $responsive/2 !important;}
+
+    .parrafoProductos__mobile { width: $pixel*2;
+                                height: $pixel;
+                                padding: 2px 0px;
+                                margin: 2px 0px 0px 0px;}
+}
+
+@media only screen and (min-width:340px) and (max-width: 575.98px) {
+    .alineacion__margin {margin: 1% 0% 3% 0%;}
+
+    .alineacion__marginDos {margin: 3% 0% 1% 0%;}
+
+    .alineacion__color {background-color: $blanco;
+                        width: $responsive+10;
+                        height: ($responsive)-5;
+                        padding: 2% 5% 5% 2%;}
+
+    .alineacion__imagen {width: $responsive;
+                        height: $responsive;
+                        margin: 10% 5% 10% 2%;}
+
+    .alineacion--centralizar {padding: 12% 0% 5% 0%;}
+
+    .alineacion--centralizarDos {padding: 12% 0% 11% 0%;}
+
+    .parrafoProductos--tamaño {font-size: $responsive/2;
+                               grid-template-rows: $responsive/2-20 $responsive/2 !important;}
+
+    .parrafoProductos__mobile { width: $pixel*2;
+                                height: $pixel;
+                                padding: 2px 0px;
+                                margin: 2px 0px 0px 0px;}
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    .alineacion__margin {margin: 1% 0% 3% 0%;}
+
+    .alineacion__marginDos {margin: 3% 0% 1% 0%;}
+
+    .alineacion__color {background-color: $blanco;
+                        width: $responsive+5;
+                        height: ($responsive)-5;
+                        padding: 2% 5% 5% 2%;}
+
+    .alineacion__imagen {width: $responsive;
+                        height: $responsive;
+                        margin: 10% 5% 10% 2%;}
+
+    .alineacion--centralizar {padding: 10% 0% 5% 0%;}
+
+    .alineacion--centralizarDos {padding: 12% 0% 11% 0%;}
+
+    .parrafoProductos--tamaño {font-size: ($responsive)-30;
+                              grid-template-rows: $responsive/2-16 $responsive/2;}
+
+    .parrafoProductos__mobile { width: $pixel*2;
+                                height: $pixel;
+                                padding: 2px 0px;}
+}
+
+@media only screen and (min-width: 767.99px) and (max-width: 991.98px) {
+    .alineacion__margin {margin: 1% 0% 3% 0%;}
+
+    .alineacion__marginDos {margin: 3% 0% 1% 0%;}
+
+    .alineacion__color {background-color: $blanco;
+                        width: $responsive+5;
+                        height: $responsive;
+                        padding: 2% 5% 5% 3%;}
+
+    .alineacion__imagen {width: $responsive;
+                        height: $responsive;
+                        margin: 10% 5% 5% 2%;}
+
+    .alineacion--centralizar {padding: 12% 0% 5% 0%;}
+
+    .alineacion--centralizarDos {padding: 12% 0% 11% 0%;}
+
+    .parrafoProductos--tamaño {font-size: ($responsive)-5;
+                              grid-template-rows: $responsive/2-10 $responsive/2;}
+
+    .parrafoProductos__mobile { font-size: $pixel;
+                                width: $pixel+35;
+                                height: $pixel+5;
+                                padding: 2px 0px;}                          
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1099px) {
+    .alineacion__margin {margin: 1% 0% 3% 0%;}
+
+    .alineacion__marginDos {margin: 5% 0% 1% 0%;}
+
+    .alineacion__color {background-color: $blanco;
+                        width: $responsive;
+                        height: $responsive;
+                        padding: 2% 5% 5% 2%;}
+
+    .alineacion__imagen {width: $responsive;
+                        height: $responsive;
+                        margin: 10% 5% 5% 2%;}
+
+    .alineacion--centralizar {padding: 12% 0% 5% 0%;}
+
+    .alineacion--centralizarDos {padding: 12% 0% 11% 0%;}
+
+    .parrafoProductos--tamaño {font-size: $pixel+0.5;
+                              grid-template-rows: $responsive/2 $responsive/2 !important;}
+
+    .parrafoProductos__mobile { font-size: $pixel;
+                                width: $pixel*3;
+                                height: $pixel+10;
+                                padding: 2px 0px;}
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1199.98px) {
+    .alineacion__margin {margin: 1% 0% 3% 0%;}
+
+    .alineacion__marginDos {margin: 5% 0% 1% 0%;}
+
+    .alineacion__color {background-color: $blanco;
+                        width: $responsive;
+                        height: $responsive;
+                        padding: 2% 5% 5% 2%;}
+
+    .alineacion__imagen {width: $responsive;
+                        height: $responsive;
+                        margin: 10% 5% 5% 2%;}
+
+    .alineacion--centralizar {padding: 12% 0% 5% 0%;}
+
+    .alineacion--centralizarDos {padding: 12% 0% 11% 0%;}
+
+    .parrafoProductos--tamaño {font-size: $pixel+0.5;
+                               grid-template-rows: $responsive/2 $responsive/2 !important;}
+
+    .parrafoProductos__mobile { font-size: $pixel;
+                                width: $pixel*3;
+                                height: $pixel+10;
+                                padding: 2px 0px;}
+}
+
+@media only screen and (min-width: 1200px) {
+    .alineacion__margin {margin: 1% 0% 3% 0%;}
+
+    .alineacion__marginDos {margin: 5% 0% 1% 0%;}
+
+    .alineacion__color {background-color: $blanco;
+                        width: $responsive;
+                        height: $responsive;
+                        padding: 2% 5% 5% 2%;}
+
+    .alineacion__imagen {width: $responsive;
+                        height: $responsive;
+                        margin: 10% 5% 5% 2%;}
+
+    .alineacion--centralizar {padding: 12% 0% 5% 0%;}
+
+    .alineacion--centralizarDos {padding: 12% 0% 11% 0%;}
+
+    .parrafoProductos--tamaño {font-size: $pixel+2;
+                               grid-template-rows: $responsive/2 $responsive/2;}
+
+    .parrafoProductos__mobile { font-size: $pixel+10;
+                                width: $pixel*4;
+                                height: $pixel*2;
+                                padding: 3px 0px;
+                                margin: 0px 0px 0px 5px;}                           
+}

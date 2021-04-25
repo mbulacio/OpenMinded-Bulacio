@@ -1,0 +1,257 @@
+/*nav*/
+$orange:#faa65c;
+$blanco:#ffffff;
+
+$respon: 100%;
+$pixel: 50px;
+
+ul{list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;}
+
+
+
+.menu__texto:hover {color: black;
+                    text-decoration: none;}
+
+
+@media only screen and (max-width: 335px) {
+    header nav {background-color: $orange;
+                width: $respon;
+                height: 3vh;}
+
+    .menu__texto {font-size: 9px;
+                  background-color: $orange;
+                  color: $blanco;
+                  width: $respon;
+                  display: flex;
+                  flex-flow: row nowrap;
+                  padding: 0px 0px 2px 3px !important;
+                  font-weight: bold;
+                  border: 0.5px solid $orange;
+                  margin: 0;}
+    
+    .dropdown-menu {position: absolute;
+                    top: 0;
+                    left: 0;
+                    z-index: 1000;
+                    display: none;
+                    width: $pixel+13;
+                    padding: 0px;
+                    margin: 0px;
+                    font-size: 5px;
+                    list-style: none;
+                    background-color: #faa65c;
+                    background-clip: padding-box;}
+}
+
+@media only screen and (min-width: 374px) and (max-width:378px) {
+    header nav {background-color: $orange;
+                width: $respon;
+                height: 3.7vh !important;}
+    
+    .menu__texto {font-size: ($respon)-30 !important;
+                  background-color: $orange;
+                  color: $blanco;
+                  width: $respon;
+                  display: flex;
+                  flex-flow: row nowrap;
+                  padding: 10px 0px 0px 3px !important;
+                  font-weight: bold;
+                  border: 0.5px solid $orange;
+                  margin: 0;}
+    
+    .dropdown-menu {position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    z-index: 1000;
+                    display: none;
+                    width: $pixel+20;
+                    padding: 0px;
+                    margin: 0px;
+                    font-size: ($respon)-10 !important;
+                    list-style: none;
+                    background-color: #faa65c;
+                    background-clip: padding-box;}
+}
+
+@media only screen and (min-width:340px) and (max-width: 575.98px) {
+    header nav {background-color: $orange;
+                width: $respon;
+                height: 3.7vh;}
+        
+    .menu__texto {  font-size: $respon/2+20;
+                    background-color: $orange;
+                    color: $blanco;
+                    width: $respon;
+                    display: flex;
+                    flex-flow: row nowrap;
+                    padding: 0px 0px 6px 3px !important;
+                    font-weight: bold;
+                    border: 0.5px solid $orange;
+                    margin: 0;}
+
+    .dropdown-menu {position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    z-index: 1000;
+                    display: none;
+                    width: $pixel+20;
+                    padding: 0px;
+                    margin: 0px;
+                    font-size: ($respon)-10 !important;
+                    list-style: none;
+                    background-color: #faa65c;
+                    background-clip: padding-box;}
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    header nav {background-color: $orange;
+                width: $respon;
+                height: 7vh;}
+            
+    .menu__texto {font-size: ($respon)-13;
+                    background-color: $orange;
+                    color: $blanco;
+                    width: $respon;
+                    display: flex;
+                    flex-flow: row nowrap;
+                    padding: 0px 0px 0px 3px !important;
+                    font-weight: bold;
+                    border: 0.5px solid $orange;}
+
+    .dropdown-menu {position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    z-index: 1000;
+                    display: none;
+                    width: $pixel*2+2;
+                    padding: 0px;
+                    margin: 0px;
+                    font-size: $respon!important;
+                    list-style: none;
+                    background-color: #faa65c;
+                    background-clip: padding-box;}
+}
+
+@media only screen and (min-width: 767.99px) and (max-width: 991.98px) {
+    header nav {background-color: $orange;
+                width: $respon;
+                height: 4vh;}
+
+    .menu__texto {font-size: $respon+10 !important;
+                color: $blanco;
+                background-color: $orange;
+                width: $respon !important;
+                display: flex;
+                flex-flow: row nowrap;
+                padding: 0px 0px 6px 3px !important;
+                font-weight: bold;
+                border: 0.5px solid $orange;}
+
+   .dropdown-menu {position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    z-index: 1000;
+                    display: none;
+                    width: $pixel*2+35;
+                    padding: 0px;
+                    margin: 0px;
+                    font-size: $respon!important;
+                    list-style: none;
+                    background-color: #faa65c;
+                    background-clip: padding-box;}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1099px) {
+    header nav {background-color: $orange;
+                width: $respon;
+                height: 4vh;}
+
+    .menu__texto {font-size: $respon+75 !important;
+                    background-color: $orange;
+                    color: $blanco;
+                    width: $respon;
+                    display: flex;
+                    flex-flow: row nowrap;
+                    padding: 0px 0px 10px 3px !important;
+                    min-width: $respon;
+                    font-weight: bold;
+                    border: 0.5px solid $orange;}
+
+   .dropdown-menu {position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    z-index: 1000;
+                    display: none;
+                    width: $pixel*3+30;
+                    padding: 0px;
+                    margin: 0px;
+                    font-size: ($respon)-5 !important;
+                    list-style: none;
+                    background-color: #faa65c;
+                    background-clip: padding-box;}
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1199.98px) {
+    header nav {background-color: $orange;
+                width: $respon;
+                height: 6vh;}
+
+    .menu__texto {font-size: $respon+40;
+                    background-color: $orange;
+                    color: $blanco;
+                    width: $respon;
+                    display: flex;
+                    flex-flow: row nowrap;
+                    padding: 0px 0px 6px 3px !important;
+                    min-width: $respon;
+                    font-weight: bold;
+                    border: 0.5px solid $orange;}
+    
+    .dropdown-menu {position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    z-index: 1000;
+                    display: none;
+                    width: $pixel*3+30;
+                    padding: 0px;
+                    margin: 0px;
+                    font-size: ($respon)-5 !important;
+                    list-style: none;
+                    background-color: #faa65c;
+                    background-clip: padding-box;}                
+}
+
+@media only screen and (min-width: 1200px) {
+    header nav {background-color: $orange;
+                width: $respon;
+                height: 5.5vh;}    
+                
+
+    .menu__texto {font-size: $respon+40;
+                background-color: $orange;
+                color: $blanco;
+                width: $respon;
+                display: flex;
+                flex-flow: row nowrap;
+                padding: 2px 0px 10px 3px !important;
+                min-width: $respon;
+                font-weight: bold;
+                border: 0.5px solid $orange;}
+
+    .dropdown-menu {position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    z-index: 1000;
+                    display: none;
+                    width: $pixel*4;
+                    padding: 0px;
+                    margin: 0px;
+                    font-size: ($respon)-5 !important;
+                    list-style: none;
+                    background-color: #faa65c;
+                    background-clip: padding-box;}       
+ }

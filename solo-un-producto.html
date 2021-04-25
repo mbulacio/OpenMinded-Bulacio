@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keyword" content="OPEN MINDED, SUPERMERCADO, NOMBRE DE PRODUCTO, OPINIONES, COMENTARIOS DE PRODUCTOS">
+  <meta name="description" content="En Open Minded estamos inspirados en la busqueda de respuestas para quienes quieren saber mas opiniones que la propia sobre productos comestibles, especificamente aquellos encontrados en supermercados.">
+  <title>NOMBRE DE PRODUCTO / OPEN MINDED</title>
+  <link rel="stylesheet" href="Bootstrap/Css/bootstrap.css">
+  <link rel="stylesheet" href="Css/estilos.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="div__titulo">
+      <h1>
+        <img src="Imagenes/Logo/logo.png" alt="logo1" class="h1__logo">
+        <em class="openMinded"><a href="index.html">Open Minded</a></em>
+        <img src="Imagenes/Logo/logo2.png" alt="logo2" class="h1__logo">
+      </h1>
+      <h2>Valoramos tu opinión </h2>
+    </div>
+    <nav>
+      <ul>
+          <li class="nav-item">
+              <a class="nav-link menu__texto" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link menu__texto" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Productos</a>
+              <div class="dropdown-menu">
+                  <a class="dropdown-item menu__texto" href="productos.html">Nuevos</a>
+                  <a class="dropdown-item menu__texto" href="productos.html">Todos</a>
+              </div>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link menu__texto" href="listado-secciones.html">Secciones</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link menu__texto" href="quienes-somos.html">Quienes somos</a>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link menu__texto" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Contacto</a>
+              <div class="dropdown-menu">
+              <a class="dropdown-item menu__texto" href="inicia-sesion-registro.html">Iniciar sesion</a>
+              <a class="dropdown-item menu__texto" href="inicia-sesion-registro.html">Registrate</a>
+              <a class="dropdown-item menu__texto" href="contacto.html">Redes</a>
+          </li>
+      </ul>
+  </nav>
+  </header>
+
+  <p class="fondoImagen"><img src="Imagenes/Productos/patagonia.JPG" alt="imagen de producto seleccionado" class="soloUnProducto"></p>
+
+  <table>
+    <tr>
+      <td class="tabla__titulo">
+        <h2>Nombre</h2>
+      </td>
+      <td class="tabla__valoracion">
+        <h2>Valoración</h2>
+      </td>
+      <td class="tabla__descripcion">
+        <h2>Descripción</h2>
+      </td>
+    </tr>
+    <tr class="espas">
+      <td class="tabla__titulo tabla__lista">Nombre de producto</td>
+      <td class="tabla__valoracion">
+        <ul class="tabla__lista">
+          <li>*****</li>
+        </ul>
+      </td>
+      <td class="tabla__descripcion">
+        <ol class="tabla__lista">
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </ol>
+      </td>
+    </tr>
+  </table>
+  <br>
+  <section>
+    <h2>Comentarios
+      <img src="Imagenes/Comentarios/realimentacion.png" alt="comentarios" class="iconoComentario">
+    </h2>
+
+    <div class="accordion" id="accordionExample">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block" type="button" data-toggle="collapse" data-target="#collapseOne"
+              aria-expanded="true">
+              Usuario3982
+            </button>
+          </h2>
+        </div>
+
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card-body">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem non, laboriosam quis mollitia consequuntur,
+            distinctio temporibus accusamus harum porro aliquid enim quam obcaecati quae commodi veniam illum odio
+            facilis ipsam.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block collapsed" type="button" data-toggle="collapse"
+              data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Usuario9838
+            </button>
+          </h2>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci dolor asperiores eligendi possimus ut,
+            tempora labore rem, provident maiores iure dolore quod et modi fugiat quae saepe cumque enim beatae.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block collapsed" type="button" data-toggle="collapse"
+              data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Usuario6252
+            </button>
+          </h2>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+          <div class="card-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, odio accusamus alias ullam quod voluptatum
+            numquam at et assumenda tenetur aliquam ut eius ipsa, repellat molestiae suscipit, possimus laboriosam
+            provident?
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <input class="botonCargar" type="text" name="comentarios" placeholder="Deja tu comentario">
+    <input class="enviar" type="submit" value="Enviar">
+  </section>
+
+  <footer class="footer footer--trans">
+    <div class="footer__foo">
+        <div>
+            <p class="footer__separacion">
+                <a href="productos.html" class="footer__texto">Nuevos productos</a>
+            </p>
+        </div>
+        <div>
+            <p class="footer__separacion">
+                <a href="productos.html" class="footer__texto">Destacados</a>
+            </p>
+        </div>
+        <div>
+            <p class="footer__separacion">
+                <a href="listado-secciones.html" class="footer__texto">Secciones</a>
+            </p>
+        </div>
+    </div>
+    <div class="footer__fooDos">
+        <div>
+            <p class="footer__separacion">
+                <a href="quienes-somos.html" class="footer__texto">Quienes somos?</a>
+            </p>
+        </div>
+        <div>
+            <p class="footer__separacion">
+                <a href="contacto.html" class="footer__texto">Contacto</a>
+            </p>
+        </div>
+        <div>
+            <p class="footer__separacion">
+                <a href="inicia-sesion-registro.html" class="footer__texto">Inicia sesión/Registrate</a>
+            </p>
+        </div>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
